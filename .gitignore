@@ -1,0 +1,10 @@
+# Ignora a pasta de dependências (a mais importante!)
+node_modules/
+
+# Ignora os executáveis do Ngrok (desnecessários no servidor)
+ngrok.exe
+ngrok.exe.old
+
+# Ignora arquivos de sessão e cache do Whatsapp (serão criados no servidor)
+.wwebjs_auth/
+.wwebjs_cache/
